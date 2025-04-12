@@ -7,16 +7,16 @@ const Lottie = dynamic(() => import('lottie-react'), { ssr: false })
 import blockchainAnimation from '../public/blockchain-animation.json'
 
 const links = [
-  { title: 'Twitter', url: 'https://twitter.com/yourhandle', icon: <FaTwitter /> },
-  { title: 'GitHub', url: 'https://github.com/yourhandle', icon: <FaGithub /> },
-  { title: 'Telegram', url: 'https://t.me/yourhandle', icon: <FaTelegram /> },
-]
+  { title: 'Twitter', url: 'https://x.com/Deisgoku?t=y6q537zFLu1Ni8kjI6YNjw&s=09', icon: <FaTwitter /> },
+  { title: 'GitHub', url: 'https://github.com/deisgoku', icon: <FaGithub /> },
+  { title: 'Telegram', url: 't.me/DeisGoku', icon: <FaTelegram /> },
+];
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>My Web3 Profile</title>
+        <title>Deis Goku</title>
         <meta name="description" content="Web3 Personal Link Page" />
       </Head>
 
